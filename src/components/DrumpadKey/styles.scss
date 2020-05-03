@@ -1,0 +1,10 @@
+.drum-pad {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 2px;
+  margin: 2px 0px;
+}
+.drum-pad:active {
+  background-color: orangered;
+}
