@@ -12,6 +12,48 @@ import trexRoar from '../../assets/audio/trexRoar.mp3';
 import trexSound from '../../assets/audio/trexSound.mp3';
 
 const Display = () => {
+  document.addEventListener('keyup', function (event) {
+    switch (event.code) {
+      case 'KeyQ':
+        playSound('Q')
+        break;
+
+      case 'KeyW':
+        playSound('W')
+        break;
+
+      case 'KeyE':
+        playSound('E')
+        break;
+
+      case 'KeyA':
+        playSound('A')
+        break;
+
+      case 'KeyS':
+        playSound('S')
+        break;
+
+      case 'KeyD':
+        playSound('D')
+        break;
+
+      case 'KeyZ':
+        playSound('Z')
+        break;
+
+      case 'KeyX':
+        playSound('X')
+        break;
+
+      case 'KeyC':
+        playSound('C')
+        break;
+
+      default:
+        return null;
+    }
+  })
   const playSound = (key) => {
     document.getElementById(key).play()
   }
