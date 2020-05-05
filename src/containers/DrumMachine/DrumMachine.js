@@ -5,7 +5,7 @@ import Display from '../../components/Display';
 const DrumMachine = () => {
   return (
     <div id="drum-machine">
-      <h2>Drum Machine whoaoaa.</h2>
+      <h2>Animal Drum Machine whooaaa!</h2>
       <Display />
     </div>
   )
